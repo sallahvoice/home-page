@@ -1,0 +1,167 @@
+.logo{
+padding: 6px 12px 6px 12px;
+margin-left: 80px;
+margin-right: auto;
+width: auto;
+height: 18px;   
+}
+
+.nav-button{
+    background-color: #deebdf;
+    border-radius: 4px;
+    padding: 6px 12px 6px 12px;
+    border: none;
+    margin-left: 8px;
+    margin-right: 8px;
+    color:rgb(29, 28, 28) ;    
+}
+
+.green-button{
+background-color: #43A046;
+border-radius: 4px;
+padding: 12px 18px 12px 18px;
+border: none;
+margin-left: 15px;
+margin-right: 8px;
+margin-top: 6px;
+color: whitesmoke;
+}
+
+.flex{
+    display: flex;
+    justify-content: end;
+    margin-right: 80px;
+}
+
+.nav-button:active{
+    transform: scale(0.96);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);    
+}
+
+.green-button:active{
+transform: scale(0.96);
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);   
+}
+
+.green-button:hover{
+    transform: scale(1.04);  
+ }
+
+ .nav-button:hover{
+    transform: scale(1.04);  
+ }
+
+ .flex-body{
+display: inline-block;    
+margin-left: 85px;
+margin-right: 920px;
+max-width: 100%;
+position: relative;
+top: -50px;
+}
+
+.body-img{
+margin-top: 100px;
+height: auto;
+max-width: 100%;
+
+}
+
+body{
+background-color: #deebdf;
+font-family: 'Inter', sans-serif; 
+}
+
+.body-button{
+    background-color: #43A046;
+    border-radius: 4px;
+    padding: 10px 18px 10px 18px;
+    border: none;
+    margin-left: none;
+    margin-right: none;
+    color: whitesmoke;
+    }
+    
+    .body-button:active{
+    transform: scale(0.96);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);   
+    }
+        
+    .body-button:hover{
+    transform: scale(1.04);  
+}
+.slide{
+display: flex;
+justify-content: center;
+gap: 15px;
+margin-top: 100px;
+
+}
+
+.dot{
+    width: 7px;
+    height: 7px;
+    background-color: rgb(94, 194, 94);
+    border-radius: 50%;
+    opacity: 75%;
+    position: relative;
+    transform-origin: center;   
+}
+
+.dot1{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(5, 151, 5);
+    border-radius: 50%;
+    position: relative;    
+}
+
+.dot:hover{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(5, 151, 5);
+    border-radius: 50%;
+   
+}
+
+.flex-logos{
+position: absolute;
+margin-top: 50px;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+margin-top: 290px;
+gap: 100px;
+}
+
+.text{
+position: absolute;    
+margin-top: 200px;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+}
+
+
+.text-suit{
+position: absolute;    
+margin-top: 430px;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.flex-logos-suit{
+position: relative;
+top:  500px;
+left: 720px;
+}
+
+.iamges{
+height: 50px;
+width: 50px;
+
+}
+
